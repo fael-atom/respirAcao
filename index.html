@@ -6,19 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Paytone+One&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
   <title>RespirAção</title>
 </head>
 
 <body>
+  <div class="contagem-regressiva hide">
+    <p>3</p>
+  </div>
   <div class="container">
     <div class="respiracao-container">
+      <h1>Respir<span>Ação</span></h1>
       <div class="circle">
+        <p></p>
       </div>
-      <form id="respiracao-form">
-        <button id="start-btn">Iniciar</button>
-        <button id="stop-btn">Parar</button>
-      </form>
+      <div class="botao-container">
+        <a class="start-btn">Iniciar</a>
+        <a class="stop-btn hide">Parar</a>
+      </div>
     </div>
 
   </div>
